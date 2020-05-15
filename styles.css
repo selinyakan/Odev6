@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+
+* {
+  box-sizing: border-box;
+}
+
+.hesapmakinasi input,
+.calc-button   {
+  font-family: 'Space Mono';
+}
+
+
+body          {
+
+  background-image: url(img/1.jpg);
+	padding-bottom: 30px;
+	padding-top: 30px;
+	background-color: #FFFFFF;
+}
+
+
+.hesapmakinasi   {
+  background-image: url(img/4.jpg);
+  max-width: 400px;
+  margin: 0 auto;
+  border: 2px solid #111;
+  border-radius: 5px;
+}
+
+.hesapmakinasi input   {
+  
+  background-image:url(img/6.jpg);
+  border: none;
+  box-shadow: none;
+  outline: none;
+
+  padding: 20px 10px;
+  width: 100%;
+  border-bottom: 2px solid #111;
+  color: #333;
+  text-align: right;
+  font-size: 40px;
+  border-radius: 0;
+}
+
+.calc-button  {
+	border: 2px solid #222; 
+	padding: 20px;
+	color: #FFF; 
+	border-radius: 5px; 
+	font-size: 22px; 
+	cursor: pointer; 
+	background-color: #999999;
+	font-family: "Arial Narrow";
+}
+
+.hesapmakinasi-buttons {
+
+  padding: 20px;
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+
+.is-zero,
+.is-clear   {
+  grid-column: span 3;
+}
+
+
+.is-clear   {
+	background-color: #000000;
+}
+
+.is-equals {
+	background-color: #F50057;
+}
